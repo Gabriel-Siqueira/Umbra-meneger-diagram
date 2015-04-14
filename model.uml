@@ -251,6 +251,12 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3QEXEOK9EeS_M45eS8NNhw" name="getMonster">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8ANFQOK9EeS_M45eS8NNhw" type="_uigxEOK9EeS_M45eS8NNhw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8oemMOK9EeS_M45eS8NNhw" name="putMonster">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_B38UsOK-EeS_M45eS8NNhw" type="_uigxEOK9EeS_M45eS8NNhw"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_AIrWAN8aEeSne5QVkZhr3g" name="Realization4" client="_KcvOgN8UEeSne5QVkZhr3g" supplier="_g94LEN8SEeSne5QVkZhr3g" contract="_g94LEN8SEeSne5QVkZhr3g"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_v8PLIOFfEeSUottG4aa3vg" name="Usage8" client="_EDNuYN8ZEeSne5QVkZhr3g" supplier="_g94LEN8SEeSne5QVkZhr3g"/>
@@ -383,6 +389,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_FHdakOJDEeS2AvVOUpCayw" name="sanity" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pI5oEOK9EeS_M45eS8NNhw" name="monster" visibility="private" type="_uigxEOK9EeS_M45eS8NNhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_2phm0OJBEeS2AvVOUpCayw" client="_0kvEkOJBEeS2AvVOUpCayw" supplier="_h7FLcN8YEeSne5QVkZhr3g"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_tWjp0OJFEeS2AvVOUpCayw" name="IPuzzleDialog"/>
@@ -395,4 +402,5 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_2i1q0OJTEeS2AvVOUpCayw" name="Usage10111" client="_qkozcOJTEeS2AvVOUpCayw" supplier="_tWjp0OJFEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_QFqvYOJVEeS2AvVOUpCayw" name="Usage101111" client="_PvkZAOJUEeS2AvVOUpCayw" supplier="_EVMc4OJTEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Uy7vwOJVEeS2AvVOUpCayw" name="Usage1011111" client="_Rd14sOJUEeS2AvVOUpCayw" supplier="_kfNn8OJAEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uigxEOK9EeS_M45eS8NNhw" name="IMob"/>
 </uml:Model>
