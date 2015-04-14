@@ -110,6 +110,11 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_T2K0UN8aEeSne5QVkZhr3g" name="CorredorMode" type="_cwXMUN8TEeSne5QVkZhr3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_UNoSEN8aEeSne5QVkZhr3g" name="VultoMode" type="_r-UkQN8TEeSne5QVkZhr3g"/>
     <ownedAttribute xmi:type="uml:Port" xmi:id="_NN1HAN8dEeSne5QVkZhr3g" name="Mode" type="_nj-BMN8FEeSne5QVkZhr3g" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_qkozcOJTEeS2AvVOUpCayw" name="puzzle" type="_tWjp0OJFEeS2AvVOUpCayw" aggregation="composite">
+      <qualifier xmi:type="uml:Port" xmi:id="_vu5R0OJTEeS2AvVOUpCayw" name="puzzle" type="_tWjp0OJFEeS2AvVOUpCayw" aggregation="composite"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_PvkZAOJUEeS2AvVOUpCayw" name="Port0" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Rd14sOJUEeS2AvVOUpCayw" name="Port1" aggregation="composite"/>
     <ownedConnector xmi:type="uml:Connector" xmi:id="_-MDw8N8cEeSne5QVkZhr3g" name="Connector1">
       <end xmi:type="uml:ConnectorEnd" xmi:id="_-MEYAN8cEeSne5QVkZhr3g" partWithPort="_TPoYwN8aEeSne5QVkZhr3g" role="_hXVd0N8bEeSne5QVkZhr3g">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-MEYAd8cEeSne5QVkZhr3g" value="1"/>
@@ -150,6 +155,36 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Pkjt1t8dEeSne5QVkZhr3g" value="1"/>
       </end>
     </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_4Ml24OJTEeS2AvVOUpCayw" name="Connector6">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_4Mmd8OJTEeS2AvVOUpCayw" partWithPort="_TjizQN8aEeSne5QVkZhr3g" role="_qL8moOJTEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4Mmd8eJTEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4Mmd8uJTEeS2AvVOUpCayw" value="1"/>
+      </end>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_4Mmd8-JTEeS2AvVOUpCayw" role="_qkozcOJTEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4Mmd9OJTEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4Mmd9eJTEeS2AvVOUpCayw" value="1"/>
+      </end>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_UBSs4OJUEeS2AvVOUpCayw" name="Connector7">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_UBTT8OJUEeS2AvVOUpCayw" partWithPort="_T2K0UN8aEeSne5QVkZhr3g" role="_BUTpUOJUEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UBTT8eJUEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UBTT8uJUEeS2AvVOUpCayw" value="1"/>
+      </end>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_UBTT8-JUEeS2AvVOUpCayw" role="_PvkZAOJUEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UBTT9OJUEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UBTT9eJUEeS2AvVOUpCayw" value="1"/>
+      </end>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_UjlhoOJUEeS2AvVOUpCayw" name="Connector8">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_UjmIsOJUEeS2AvVOUpCayw" partWithPort="_T2K0UN8aEeSne5QVkZhr3g" role="_ETWNUOJUEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UjmIseJUEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UjmIsuJUEeS2AvVOUpCayw" value="1"/>
+      </end>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_UjmIs-JUEeS2AvVOUpCayw" role="_Rd14sOJUEeS2AvVOUpCayw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UjmItOJUEeS2AvVOUpCayw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UjmIteJUEeS2AvVOUpCayw" value="1"/>
+      </end>
+    </ownedConnector>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_8AjjsN8REeSne5QVkZhr3g" name="SelectorComponet">
     <ownedAttribute xmi:type="uml:Port" xmi:id="_JyTcUN8SEeSne5QVkZhr3g" name="mode" type="_nj-BMN8FEeSne5QVkZhr3g" aggregation="composite"/>
@@ -183,10 +218,16 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_cgkc0N8TEeSne5QVkZhr3g" name="SalaModeComponent">
     <ownedAttribute xmi:type="uml:Port" xmi:id="_DQnmEN8UEeSne5QVkZhr3g" name="SalaMode" aggregation="composite"/>
     <ownedAttribute xmi:type="uml:Port" xmi:id="_iHB_8N8cEeSne5QVkZhr3g" name="SalaMode" type="_g94LEN8SEeSne5QVkZhr3g" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_MttnAOJTEeS2AvVOUpCayw" name="puzzle" type="_tWjp0OJFEeS2AvVOUpCayw" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_qL8moOJTEeS2AvVOUpCayw" name="puzzle" type="_tWjp0OJFEeS2AvVOUpCayw" aggregation="composite"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_cwXMUN8TEeSne5QVkZhr3g" name="CorredorModeComponet">
     <ownedAttribute xmi:type="uml:Port" xmi:id="_KcvOgN8UEeSne5QVkZhr3g" name="CorredorMode" type="_g94LEN8SEeSne5QVkZhr3g" aggregation="composite"/>
     <ownedAttribute xmi:type="uml:Port" xmi:id="_ihypUN8cEeSne5QVkZhr3g" name="CorredorMode" type="_g94LEN8SEeSne5QVkZhr3g" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xBsL4OJSEeS2AvVOUpCayw" name="position" type="_EVMc4OJTEeS2AvVOUpCayw" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_J76NwOJTEeS2AvVOUpCayw" name="map" type="_kfNn8OJAEeS2AvVOUpCayw" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_BUTpUOJUEeS2AvVOUpCayw" name="position" type="_EVMc4OJTEeS2AvVOUpCayw" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_ETWNUOJUEeS2AvVOUpCayw" name="map" type="_kfNn8OJAEeS2AvVOUpCayw" aggregation="composite"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_r-UkQN8TEeSne5QVkZhr3g" name="VultoModeComponet">
     <ownedAttribute xmi:type="uml:Port" xmi:id="_xAs5AN8TEeSne5QVkZhr3g" name="VultoMode" type="_mrenEN8SEeSne5QVkZhr3g" aggregation="composite"/>
@@ -199,6 +240,14 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_RKJwYOJDEeS2AvVOUpCayw" name="getSanity">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z1aQUOJDEeS2AvVOUpCayw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BBrIkOJREeS2AvVOUpCayw" name="putInventario">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JFIosOJREeS2AvVOUpCayw" name="inventario " type="_zf1IcOI1EeS2AvVOUpCayw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K-2jYOJREeS2AvVOUpCayw" name="putSanity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QlLSsOJREeS2AvVOUpCayw" name="sanity">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedParameter>
     </ownedOperation>
@@ -299,6 +348,12 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_R7zhsOJBEeS2AvVOUpCayw" name="text" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gKy8sOJREeS2AvVOUpCayw" name="&lt;&lt;create>>ScreemData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1d01cOJREeS2AvVOUpCayw" name="vmap" type="_Pr4DQOI9EeS2AvVOUpCayw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_34XlQOJREeS2AvVOUpCayw" name="text">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_mLH3gOI9EeS2AvVOUpCayw" client="_fSUzsOI9EeS2AvVOUpCayw" supplier="_yukUUOIZEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_rtO_wOI-EeS2AvVOUpCayw" name="IVulto">
@@ -333,4 +388,11 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_tWjp0OJFEeS2AvVOUpCayw" name="IPuzzleDialog"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_VlGxYOJGEeS2AvVOUpCayw" name="Usage2" client="_-GlSgN8FEeSne5QVkZhr3g" supplier="_qkrSsOIyEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_gOX2IOJGEeS2AvVOUpCayw" name="Usage5" client="_PKALsN8QEeSne5QVkZhr3g" supplier="_qkrSsOIyEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_EVMc4OJTEeS2AvVOUpCayw" name="IPosition"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_fHgBwOJTEeS2AvVOUpCayw" name="Usage10" client="_J76NwOJTEeS2AvVOUpCayw" supplier="_kfNn8OJAEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jIPTUOJTEeS2AvVOUpCayw" name="Usage101" client="_MttnAOJTEeS2AvVOUpCayw" supplier="_tWjp0OJFEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_oCcjgOJTEeS2AvVOUpCayw" name="Usage1011" client="_xBsL4OJSEeS2AvVOUpCayw" supplier="_EVMc4OJTEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2i1q0OJTEeS2AvVOUpCayw" name="Usage10111" client="_qkozcOJTEeS2AvVOUpCayw" supplier="_tWjp0OJFEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QFqvYOJVEeS2AvVOUpCayw" name="Usage101111" client="_PvkZAOJUEeS2AvVOUpCayw" supplier="_EVMc4OJTEeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Uy7vwOJVEeS2AvVOUpCayw" name="Usage1011111" client="_Rd14sOJUEeS2AvVOUpCayw" supplier="_kfNn8OJAEeS2AvVOUpCayw"/>
 </uml:Model>
