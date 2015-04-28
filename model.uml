@@ -320,7 +320,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gGSEAOHsEeSpSOWZUIZnJQ" name="communicator" visibility="private" type="_Q4crgN8FEeSne5QVkZhr3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fT_wAOIvEeS2AvVOUpCayw" name="vulto" visibility="private" type="_XDPAcOI_EeS2AvVOUpCayw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8tIwEOI2EeS2AvVOUpCayw" name="alteration" visibility="private" type="_h7FLcN8YEeSne5QVkZhr3g"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_r_zPsOHsEeSpSOWZUIZnJQ" name="Main"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_r_zPsOHsEeSpSOWZUIZnJQ" name="control"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_04dScOHsEeSpSOWZUIZnJQ" name="communicate" visibility="private">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_92Q68OHsEeSpSOWZUIZnJQ" name="output" type="_yukUUOIZEeS2AvVOUpCayw"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="__tSG8OHsEeSpSOWZUIZnJQ" direction="return">
@@ -361,7 +361,6 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_mLH3gOI9EeS2AvVOUpCayw" client="_fSUzsOI9EeS2AvVOUpCayw" supplier="_yukUUOIZEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_rtO_wOI-EeS2AvVOUpCayw" name="IVulto">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_x1xrUOI-EeS2AvVOUpCayw" name="checkVulto" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_x1xrUeI-EeS2AvVOUpCayw" direction="return">
@@ -403,4 +402,6 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_QFqvYOJVEeS2AvVOUpCayw" name="Usage101111" client="_PvkZAOJUEeS2AvVOUpCayw" supplier="_EVMc4OJTEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Uy7vwOJVEeS2AvVOUpCayw" name="Usage1011111" client="_Rd14sOJUEeS2AvVOUpCayw" supplier="_kfNn8OJAEeS2AvVOUpCayw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_uigxEOK9EeS_M45eS8NNhw" name="IMob"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_iScYAO29EeSLS78bOXaa-A" client="_6LQ5AOFhEeSUottG4aa3vg" supplier="_rtO_wOI-EeS2AvVOUpCayw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_q4860O29EeSLS78bOXaa-A" client="_fSUzsOI9EeS2AvVOUpCayw" supplier="_yukUUOIZEeS2AvVOUpCayw"/>
 </uml:Model>
